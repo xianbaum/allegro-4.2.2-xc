@@ -1,0 +1,11 @@
+[host_machine]
+system = 'msdos'
+cpu_family = 'x86'
+cpu = 'i686'
+endian = 'little'
+
+[constants]
+toolchain = 'i686-pc-msdosdjgpp-'
+
+[binaries]
+c = toolchain + 'gcc'
